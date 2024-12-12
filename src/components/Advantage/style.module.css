@@ -1,0 +1,17 @@
+.cards {
+  @apply flex flex-row overflow-x-auto whitespace-nowrap pb-6;
+  @apply md:whitespace-nowrap lg:m-auto;
+}
+
+.cards::-webkit-scrollbar {
+  height: 3px;
+}
+.cards::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 10px;
+}
+.cards::-webkit-scrollbar-track {
+  @apply ml-6 mr-6;
+  background-color: #eee;
+  border-radius: 10px;
+}

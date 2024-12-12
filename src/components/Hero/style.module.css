@@ -1,0 +1,43 @@
+.section {
+  @apply w-full
+    flex 
+    flex-col 
+    items-center 
+    border-b 
+    shadow-md
+    text-[2rem]
+    sm:text-[3.5rem]
+    md:pt-28
+    pt-20
+    pb-10;
+}
+.title {
+  @apply text-5xl
+    font-bold 
+    my-7
+    text-center;
+}
+.description {
+  @apply text-lg
+    text-zinc-600 
+    text-center
+    max-w-2xl
+    my-2
+    ;
+}
+.image {
+  @apply rounded-3xl 
+    overflow-hidden
+    my-7
+    max-w-80
+    sm:max-w-md
+    md:max-w-2xl
+    lg:max-w-[70vw]
+    ;
+}
+.dowload {
+  @apply 
+    my-3 
+    flex
+    gap-4;
+}

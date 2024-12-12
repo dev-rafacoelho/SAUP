@@ -1,0 +1,52 @@
+.title{
+    @apply text-4xl font-bold mb-4;
+
+}
+.description{
+    @apply text-base text-gray-600 whitespace-normal;
+}
+.conjunto{ 
+    @apply flex-grow ;
+    @apply md:ml-28 md:mt-20;
+}
+.box,.box2{
+    @apply flex flex-col min-w-[300px] pl-6;
+}
+.box{
+    @apply md:flex-row;
+}
+.box2{
+    @apply md:flex-row-reverse;
+    
+}
+.all{
+    @apply flex flex-row overflow-x-auto whitespace-nowrap pb-8 mt-20 ml-10 ;
+    @apply md:flex-col md:m-4 md:mt-4 md:pb-0 md:ml-20;
+    @apply lg:flex-col lg:ml-36 lg:mr-36 mb-8 lg:mt-4 lg:pb-0; 
+}
+.section{
+    @apply flex flex-col w-full pt-20 bg-[#F7F7F7]  shadow-md;
+}
+.img{
+    @apply w-[300px] mb-8;
+    @apply md:min-w-[300px] md:mt-10;
+    @apply lg:min-w-[350px];
+}
+
+.all::-webkit-scrollbar {
+    height: 3px;
+  }
+  .all::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 10px;
+  }
+  .all::-webkit-scrollbar-track {
+    @apply ml-6 mr-6;
+    background-color: #eee;
+    border-radius: 10px;
+  }
+  
+
+
+
+

@@ -1,0 +1,24 @@
+.card {
+  @apply flex
+    flex-col
+    gap-2
+    ml-6
+    md:ml-0
+    min-w-64
+    md:ml-3
+    md:min-w-32
+    lg:md:min-w-40
+}
+.title {
+  @apply 
+    text-base
+    font-bold;
+}
+.description {
+  @apply 
+    text-sm 
+    text-gray-600
+    whitespace-normal
+    ;
+}
+

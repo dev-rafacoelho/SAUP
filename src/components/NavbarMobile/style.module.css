@@ -1,0 +1,100 @@
+    .header {
+        @apply 
+        h-16
+        md:h-24
+        md:text-[1em] 
+        border-b 
+        shadow-md 
+        fixed 
+        w-full 
+        bg-white 
+        transition-all 
+        duration-500
+        z-10;
+    }
+
+    .logoContainer img {
+        @apply 
+        transition-all 
+        duration-300;
+    }
+
+    .header.expanded {
+        @apply 
+        h-72;
+    }
+
+    .invisible {
+        @apply 
+        hidden;
+    }
+
+    .visible {
+        @apply 
+        block;
+    }
+
+    .navbar {
+        @apply 
+        flex 
+        items-center;
+    }
+
+    .navList {
+        @apply 
+        hidden 
+        md:flex 
+        flex-row 
+        space-x-4
+        items-center; 
+    }
+    .menuIcon {
+        @apply 
+        block 
+        md:hidden 
+        mr-5
+        mt-3
+        cursor-pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .menuList {
+        @apply transition-opacity duration-300 ease-in-out;
+    }
+     
+
+    .box {
+        @apply 
+        md:max-w-[80vw]
+        xl:max-w-[80vw]
+        lg:max-w-[80vw] 
+        max-w-4xl 
+        m-auto 
+        flex 
+        items-center 
+        justify-between 
+        h-full;
+    }
+
+    .boxOpen {
+        @apply
+        items-start
+        pt-3
+    }
+
+    .desktop {
+        @apply 
+        pl-10
+        hidden 
+        md:block; 
+    }
+
+    .tablet {
+        @apply 
+        md:hidden 
+        block 
+        ml-2; 
+    }
+
+
+

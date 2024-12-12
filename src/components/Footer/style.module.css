@@ -1,0 +1,48 @@
+.footer{
+    @apply
+    bg-[#F7F7F7]
+    flex
+    flex-col
+    ;
+}
+.box{
+    @apply
+    flex
+    flex-col
+    ml-8
+    md:flex-row
+    md:gap-10
+    md:justify-center
+    md:mt-8
+    mb-10
+    ;
+}
+.img{
+    @apply
+    mt-8
+}
+.card{
+    @apply
+    p-4
+    ;
+}
+.direitos{
+    @apply
+    text-center
+    ;
+}
+.subtitle{
+    @apply
+    text-xs 
+    text-customFonte2 
+    mt-2
+
+    ;
+}
+.title{
+    @apply
+    font-bold 
+    text-sm 
+    text-customFonte
+    ;
+}
