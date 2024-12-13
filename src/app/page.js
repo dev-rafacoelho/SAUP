@@ -1,12 +1,12 @@
 "use client"
-import Hero from "@/app/components/Hero";
-import Feature from '@/app/components/Feature';
-import Card from '@/app/components/Card';
-import Solutions from '@/app/components/Solutions';
-import Advantage from '@/app/components/Advantage';
-import Contato from '@/app/components/Contato';
-import Footer from '@/app/components/Footer';
-import EmailSender from '@/app/components/EmailSender';
+import Hero from "@/components/Hero";
+import Feature from '@/components/Feature';
+import Card from '@/components/Card';
+import Solutions from '@/components/Solutions';
+import Advantage from '@/components/Advantage';
+import Contato from '@/components/Contato';
+import Footer from '@/components/Footer';
+import EmailSender from '@/components/EmailSender';
 import { useEffect } from "react";
 import * as React from 'react'
 import AOS from "aos";

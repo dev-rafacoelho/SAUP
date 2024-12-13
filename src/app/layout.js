@@ -1,7 +1,7 @@
 import "./globals.css";
 import "aos/dist/aos.css";
 import { Inter } from "next/font/google";
-import Navbar from "@/app/components/Navbar/Navbar"; // Importa o componente Navbar
+import Navbar from "@/components/Navbar/Navbar"; // Importa o componente Navbar
 
 const inter = Inter({
   subsets: ["latin"],

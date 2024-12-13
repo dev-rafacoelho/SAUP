@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import Cards2 from '@/app/components/Cards2';
+import Cards2 from '@/components/Cards2';
 export default function Advantage() {
     return (
       <div>

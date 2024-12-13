@@ -3,7 +3,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Navdesk from "@/app/components/Navdesk"
+import Navdesk from "@/components/Navdesk"
 import NavBarMobile from "@/app/components/NavBarMobile"; 
 
 const Navbar = () => {
