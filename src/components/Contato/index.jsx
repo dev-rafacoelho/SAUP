@@ -26,7 +26,7 @@ export default function Contato() {
     }
 
     setLoading(true);
-    setStatusMessage("");
+    setStatusMessage(""); // Limpa mensagens de status
 
     try {
       const res = await fetch("/api/sendMail", {
@@ -61,7 +61,7 @@ export default function Contato() {
       }
     } catch (error) {
       console.error("Erro ao enviar e-mail:", error);
-      setDialogMessage("Erro ao enviar e-mail: " + error.message);
+      setDialogMessage(`Erro ao enviar e-mail: ${error.message}`);
       openDialog(); // Abre o diálogo de erro
     }
 
@@ -163,7 +163,7 @@ export default function Contato() {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    {dialogMessage}
+                    {dialogMessage} {/* Exibe a mensagem no modal */}
                   </DialogTitle>
                   <div className="mt-4">
                     <button
