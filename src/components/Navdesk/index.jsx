@@ -5,7 +5,7 @@ import { FaGooglePlay } from "react-icons/fa";
 import { ChevronRight } from 'lucide-react'
 import { FaAppStore } from "react-icons/fa";
 
-export default function NavBarDesktop() {
+export default function Navdesk() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="bg-white border-b tablet:bg-black shadow-xl fixed w-full h-24 z-30 flex flex-row items-center px-28 justify-between">

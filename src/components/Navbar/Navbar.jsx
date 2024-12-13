@@ -3,8 +3,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import NavBarDesktop from "@/components/NavBarDesktop"; // Importa a navbar desktop
-import NavBarMobile from "@/components/NavBarMobile"; // Importa a navbar mobile
+import Navdesk from "@/components/Navdesk"
+import NavBarMobile from "@/components/NavBarMobile"; 
 
 const Navbar = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <>
       {/* Renderiza a navbar dependendo do tamanho da tela */}
-      {isDesktop ? <NavBarDesktop /> : <NavBarMobile />}
+      {isDesktop ? <Navdesk /> : <NavBarMobile />}
     </>
   );
 };
