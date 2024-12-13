@@ -10,8 +10,8 @@ export async function POST(req) {
     port: 587, // Porta específica
     secure: false, // Usa TLS
     auth: {
-      user: 'coelho180305@gmail.com', 
-      pass: 'rxph fkol kfsv qwsr',
+      user:  process.env.NEXT_PUBLIC_EMAIL_TO, 
+      pass:   process.env.NEXT_PUBLIC_KEY,
     },
   });
      
@@ -20,7 +20,7 @@ export async function POST(req) {
   try {
     // Enviando o e-mail
     const info = await transporter.sendMail({
-      from: `"Rafael Coelho" <${process.env.EMAIL_USER}>`, // Seu endereço de e-mail
+      from: `"SAUP" <${process.env.NEXT_PUBLIC_EMAIL_TO}>`, // Seu endereço de e-mail
       to, // Lista de destinatários
       subject, // Assunto do e-mail
       text, // Corpo do e-mail em texto puro
