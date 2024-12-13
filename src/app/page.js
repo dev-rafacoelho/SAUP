@@ -6,7 +6,6 @@ import Solutions from '@/components/Solutions';
 import Advantage from '@/components/Advantage';
 import Contato from '@/components/Contato';
 import Footer from '@/components/Footer';
-import EmailSender from '@/components/EmailSender';
 import { useEffect } from "react";
 import * as React from 'react'
 import AOS from "aos";
@@ -76,7 +75,6 @@ export default function Home() {
       <Advantage/>
       <Contato/>
       <Footer/>
-      <EmailSender/>
     </div>
     
   );
