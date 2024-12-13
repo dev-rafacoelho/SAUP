@@ -4,7 +4,7 @@
 
 import { useState, useEffect } from "react";
 import Navdesk from "@/components/Navdesk"
-import NavBarMobile from "@/app/components/NavbarMobile"; 
+import NavBarMobile from "@/components/NavbarMobile"; 
 
 const Navbar = () => {
   const [isDesktop, setIsDesktop] = useState(false);
