@@ -11,7 +11,7 @@ export default function Contato() {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
-  const [setStatusMessage] = useState("");
+  const [statusMessage, setStatusMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
   const regex = /^\(?\d{2}\)?[\s-]?9?\d{4}[\s-]?\d{4}$/;
@@ -35,7 +35,7 @@ export default function Contato() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: process.env.NEXT_PUBLIC_EMAIL_TO,
+          to: "coelho180305@gmail.com",
           subject: "Novo contato do formulário",
           text: `Nome: ${name}\nE-mail: ${email}\nNúmero: ${number}\nMensagem: ${message}`,
           html: `
