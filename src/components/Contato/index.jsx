@@ -35,7 +35,7 @@ export default function Contato() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: "coelho180305@gmail.com",
+          to: process.env.NEXT_PUBLIC_EMAIL_TO,
           subject: "Novo contato do formulário",
           text: `Nome: ${name}\nE-mail: ${email}\nNúmero: ${number}\nMensagem: ${message}`,
           html: `
