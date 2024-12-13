@@ -3,8 +3,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Navdesk from "@/components/Navdesk"
-import NavBarMobile from "@/components/NavBarMobile"; 
+import Navdesk from "@/app/components/Navdesk"
+import NavBarMobile from "@/app/components/NavBarMobile"; 
 
 const Navbar = () => {
   const [isDesktop, setIsDesktop] = useState(false);
