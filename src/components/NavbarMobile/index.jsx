@@ -5,7 +5,7 @@ import React, { useState } from "react"
 import { ChevronRight } from "lucide-react"
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 
-export default function Component() {
+export default function NavbarMobile() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isAplicativoOpen, setIsAplicativoOpen] = useState(false)
 
@@ -29,7 +29,7 @@ export default function Component() {
       <div className="flex justify-between items-center h-[75px]">
         <div className="logo-container ml-4">
           <a href="#">
-            <img src="../../../assets/logo.svg" alt="Logo" className="h-[50px]" />
+            <img src="/assets/logo.svg" alt="Logo" className="h-[50px]" />
           </a>
         </div>
 
